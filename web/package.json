@@ -13,10 +13,10 @@
     ]
   },
   "dependencies": {
-    "@redwoodjs/forms": "0.0.0-experimental-streaming.6",
-    "@redwoodjs/router": "0.0.0-experimental-streaming.6",
-    "@redwoodjs/vite": "0.0.0-experimental-streaming.6",
-    "@redwoodjs/web": "0.0.0-experimental-streaming.6",
+    "@redwoodjs/forms": "0.0.0-experimental-streaming.7",
+    "@redwoodjs/router": "0.0.0-experimental-streaming.7",
+    "@redwoodjs/vite": "0.0.0-experimental-streaming.7",
+    "@redwoodjs/web": "0.0.0-experimental-streaming.7",
     "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"

@@ -4526,9 +4526,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/api-server@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/api-server@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/api-server@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/api-server@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/plugin-transform-runtime": 7.21.0
     "@babel/runtime-corejs3": 7.21.0
@@ -4553,13 +4553,13 @@ __metadata:
     rw-log-formatter: dist/logFormatter/bin.js
     rw-serve-api: dist/index.js api
     rw-server: dist/index.js
-  checksum: 258025cc774b40d8b3c690b21088301a989dd5eddcbc512cc52fd80ec7b9e942230d3ba0b3490d51e139f2eac62ab84ef477c38cfec75f0bd25e41c84a258c1c
+  checksum: d65840106041339f88eca8f35b5b48d00194baac022a433c54f23ad011c58580c807369b9043a75382a4c9bf317aa966c2c31668f7c83992a7faa9c6bd399bf6
   languageName: node
   linkType: hard
 
-"@redwoodjs/api@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/api@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/api@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/api@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/runtime-corejs3": 7.21.0
     "@prisma/client": 4.12.0
@@ -4583,29 +4583,29 @@ __metadata:
     rw: dist/bins/redwood.js
     rwfw: dist/bins/rwfw.js
     tsc: dist/bins/tsc.js
-  checksum: edd1474aeb268476d5f83b43f721ba933f17088c7fc5a289e8927828515a46d9d574e0f91fee30dd6bffcd2d0e938a4375491f8cc3899d0cd1452820c8a16586
+  checksum: ffcd7d3f4a614f36bb267db9105f106f41e40b8bd8659fdc9c37bfd41ec6e09c942272444bba28f9365740d1b51cc254f006b815b129ebc6986daad3853e030a
   languageName: node
   linkType: hard
 
-"@redwoodjs/auth@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/auth@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/auth@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/auth@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/runtime-corejs3": 7.21.0
     core-js: 3.30.0
     react: 18.2.0
-  checksum: b8218807a8593c4d6966ec8f1f42605fd0079080bab785eab9a90a2705d57bc68701f3e2c18b88379ade00ed41ab415eadb7926a6d1b0bab75d138ba506cde38
+  checksum: ccf9536b8047cc8957d6b70c69d23d25dca74b1ee17ad78ba28ecd2cc1d21110d0795255741f80a7b1db90f9d85cbe7f6452b801824fe6a6550d466e8274d668
   languageName: node
   linkType: hard
 
-"@redwoodjs/cli-helpers@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/cli-helpers@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/cli-helpers@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/cli-helpers@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/core": 7.21.3
     "@babel/runtime-corejs3": 7.21.0
-    "@redwoodjs/project-config": 0.0.0-experimental-streaming.6
-    "@redwoodjs/telemetry": 0.0.0-experimental-streaming.6
+    "@redwoodjs/project-config": 0.0.0-experimental-streaming.7
+    "@redwoodjs/telemetry": 0.0.0-experimental-streaming.7
     chalk: 4.1.2
     core-js: 3.30.0
     execa: 5.1.1
@@ -4615,23 +4615,23 @@ __metadata:
     prettier: 2.8.7
     prompts: 2.4.2
     terminal-link: 2.1.1
-  checksum: 5f33dee67ec3092ea74c2091daf07e01e133ebffdfa41a0d3d8a82a387225b553206bd13eb9ce9ad4ac78c678dc83b309c5808f0c7640a128ecd288bfd62f0e8
+  checksum: 84671d56f7946250f582051f17ba437846f1f6d0b2a1a161d1b07b8cfd6a69dc5b1b1a74f91498c725fcb33e7b0d94a4e6618ace47b7e595c92385f36e154cd9
   languageName: node
   linkType: hard
 
-"@redwoodjs/cli@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/cli@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/cli@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/cli@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/runtime-corejs3": 7.21.0
     "@prisma/internals": 4.12.0
-    "@redwoodjs/api-server": 0.0.0-experimental-streaming.6
-    "@redwoodjs/cli-helpers": 0.0.0-experimental-streaming.6
-    "@redwoodjs/internal": 0.0.0-experimental-streaming.6
-    "@redwoodjs/prerender": 0.0.0-experimental-streaming.6
-    "@redwoodjs/project-config": 0.0.0-experimental-streaming.6
-    "@redwoodjs/structure": 0.0.0-experimental-streaming.6
-    "@redwoodjs/telemetry": 0.0.0-experimental-streaming.6
+    "@redwoodjs/api-server": 0.0.0-experimental-streaming.7
+    "@redwoodjs/cli-helpers": 0.0.0-experimental-streaming.7
+    "@redwoodjs/internal": 0.0.0-experimental-streaming.7
+    "@redwoodjs/prerender": 0.0.0-experimental-streaming.7
+    "@redwoodjs/project-config": 0.0.0-experimental-streaming.7
+    "@redwoodjs/structure": 0.0.0-experimental-streaming.7
+    "@redwoodjs/telemetry": 0.0.0-experimental-streaming.7
     "@types/secure-random-password": 0.2.1
     boxen: 5.1.2
     camelcase: 6.3.0
@@ -4667,13 +4667,13 @@ __metadata:
     redwood: dist/index.js
     rw: dist/index.js
     rwfw: dist/rwfw.js
-  checksum: 92aaafc5576d6b84d9b02f22590690bcb4cc1fa767f2a50567e0941ec68749c91e9aa9d64ae5170e5cafbc9d6bf8287411ee2d2a5b8044ada92ce24b73e33f1b
+  checksum: 84ab60db033b466c3a8df7c0b697b6861add504416581cc99e6127b1761ea8a1279bebb22914beea1647f508c8aaab2468f00fde15d40f04a7f3445cbea786ea
   languageName: node
   linkType: hard
 
-"@redwoodjs/core@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/core@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/core@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/core@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/cli": 7.21.0
     "@babel/core": 7.21.3
@@ -4689,11 +4689,11 @@ __metadata:
     "@babel/preset-typescript": 7.21.0
     "@babel/runtime-corejs3": 7.21.0
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.10
-    "@redwoodjs/cli": 0.0.0-experimental-streaming.6
-    "@redwoodjs/eslint-config": 0.0.0-experimental-streaming.6
-    "@redwoodjs/internal": 0.0.0-experimental-streaming.6
-    "@redwoodjs/project-config": 0.0.0-experimental-streaming.6
-    "@redwoodjs/testing": 0.0.0-experimental-streaming.6
+    "@redwoodjs/cli": 0.0.0-experimental-streaming.7
+    "@redwoodjs/eslint-config": 0.0.0-experimental-streaming.7
+    "@redwoodjs/internal": 0.0.0-experimental-streaming.7
+    "@redwoodjs/project-config": 0.0.0-experimental-streaming.7
+    "@redwoodjs/testing": 0.0.0-experimental-streaming.7
     babel-loader: 9.1.2
     babel-plugin-auto-import: 1.1.0
     babel-plugin-graphql-tag: 3.3.0
@@ -4742,19 +4742,19 @@ __metadata:
     rw-log-formatter: dist/bins/rw-log-formatter.js
     rw-serve-fe: dist/bins/rw-serve-fe.js
     rwfw: dist/bins/rwfw.js
-  checksum: c90afb43d33549a29ffe769f6114d3f90b3e1828d14c6a8251f0d12415052fe883427c6774bccee24499c5078b8a6cf53d6b88b0cbb914c2851af75c6d0910d2
+  checksum: 4572a3def932065a4f41f0be68435a48fd5e5dc456c2db4851ea6ba7662c587519030719e46ff8d63cff3e160554f37d153655032e9c3cb45a20571994931e58
   languageName: node
   linkType: hard
 
-"@redwoodjs/eslint-config@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/eslint-config@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/eslint-config@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/eslint-config@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/core": 7.21.3
     "@babel/eslint-parser": 7.21.3
     "@babel/eslint-plugin": 7.19.1
-    "@redwoodjs/internal": 0.0.0-experimental-streaming.6
-    "@redwoodjs/project-config": 0.0.0-experimental-streaming.6
+    "@redwoodjs/internal": 0.0.0-experimental-streaming.7
+    "@redwoodjs/project-config": 0.0.0-experimental-streaming.7
     "@typescript-eslint/eslint-plugin": 5.57.1
     "@typescript-eslint/parser": 5.57.1
     eslint: 8.37.0
@@ -4768,13 +4768,13 @@ __metadata:
     eslint-plugin-react: 7.32.2
     eslint-plugin-react-hooks: 4.6.0
     prettier: 2.8.7
-  checksum: edd68c5a4443f719ca7898ec28c4d6c1e33b2f7d7d0aa5fa708c7594bf266c6a20530d54e0d44bc0d5a5b05ee36429cae56b28c75231c9538091a6ff03a39d2f
+  checksum: f65dccb3c620e65ace5bc2785a55b6355ecd024d329bde9c570a86aa7d74f556a6ae7c45c3f650927aa68f6090010d3a52e588536a1e5aaea5ca65f96a77d978
   languageName: node
   linkType: hard
 
-"@redwoodjs/forms@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/forms@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/forms@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/forms@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/runtime-corejs3": 7.21.0
     core-js: 3.30.0
@@ -4783,13 +4783,13 @@ __metadata:
   peerDependencies:
     graphql: 16.6.0
     react: 18.2.0
-  checksum: d5a9385240634d32ef92cc66f40de722e8c1335b7a81e5c8be666f64642c1f1cce45adcaa78d5975c9f3c74aeb0bb5bd876e9311ad43725fafea9656ccc6e4da
+  checksum: 150d9c1cb1a2039f8c5f34ac34431912f7ca9a99d5789a0bf52c4ce17adb90d7f3bfab2490d1986db33a1aeb50fdd1f5f3082069a8946ef7187d52d126198f73
   languageName: node
   linkType: hard
 
-"@redwoodjs/graphql-server@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/graphql-server@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/graphql-server@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/graphql-server@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/runtime-corejs3": 7.21.0
     "@envelop/core": 3.0.6
@@ -4800,7 +4800,7 @@ __metadata:
     "@graphql-tools/merge": 8.4.0
     "@graphql-tools/schema": 9.0.17
     "@graphql-tools/utils": 9.2.1
-    "@redwoodjs/api": 0.0.0-experimental-streaming.6
+    "@redwoodjs/api": 0.0.0-experimental-streaming.7
     core-js: 3.30.0
     graphql: 16.6.0
     graphql-scalars: 1.21.3
@@ -4809,13 +4809,13 @@ __metadata:
     lodash.merge: 4.6.2
     lodash.omitby: 4.6.0
     uuid: 9.0.0
-  checksum: 85978b08e773399fc96e4086cd5c4f982f01cb2bc13eca74a79a783f3c99b4f281598d9db215e79f76f95934a1c42d90a2aa2de8c2ee9395c8e4644c16d17aff
+  checksum: 8c937bc206afee6a9003e0e2d87c8cc5111f86e1be008aa774ebfc8768264ba7210da092c649d2ec3184722fb4e30b961a9baebdf1301852b0a536a05a1b0d13
   languageName: node
   linkType: hard
 
-"@redwoodjs/internal@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/internal@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/internal@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/internal@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/parser": 7.21.3
     "@babel/plugin-transform-typescript": 7.21.3
@@ -4830,9 +4830,9 @@ __metadata:
     "@graphql-codegen/typescript-operations": 3.0.2
     "@graphql-codegen/typescript-react-apollo": 3.3.7
     "@graphql-codegen/typescript-resolvers": 3.1.1
-    "@redwoodjs/graphql-server": 0.0.0-experimental-streaming.6
-    "@redwoodjs/project-config": 0.0.0-experimental-streaming.6
-    "@redwoodjs/router": 0.0.0-experimental-streaming.6
+    "@redwoodjs/graphql-server": 0.0.0-experimental-streaming.7
+    "@redwoodjs/project-config": 0.0.0-experimental-streaming.7
+    "@redwoodjs/router": 0.0.0-experimental-streaming.7
     babel-plugin-graphql-tag: 3.3.0
     babel-plugin-polyfill-corejs3: 0.7.1
     chalk: 4.1.2
@@ -4854,21 +4854,21 @@ __metadata:
   bin:
     rw-gen: dist/generate/generate.js
     rw-gen-watch: dist/generate/watch.js
-  checksum: 59c99d059335cc5ebc6dec5f5482c0926a79f5e5ec4217e2ca9a8d6afbadc175fb8424722d6776e278cf064e36ab8d48154af8028fee51a3e4d166efbf7862a7
+  checksum: 3ae0d448954edd784e9ec9245ee726389912d521563b868c5a2d17bef47087ce6e8f0e64300fdf7c158dd113b130f4f6fb8df6751022fe4d7ba808c91c06ef6b
   languageName: node
   linkType: hard
 
-"@redwoodjs/prerender@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/prerender@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/prerender@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/prerender@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/runtime-corejs3": 7.21.0
-    "@redwoodjs/auth": 0.0.0-experimental-streaming.6
-    "@redwoodjs/internal": 0.0.0-experimental-streaming.6
-    "@redwoodjs/project-config": 0.0.0-experimental-streaming.6
-    "@redwoodjs/router": 0.0.0-experimental-streaming.6
-    "@redwoodjs/structure": 0.0.0-experimental-streaming.6
-    "@redwoodjs/web": 0.0.0-experimental-streaming.6
+    "@redwoodjs/auth": 0.0.0-experimental-streaming.7
+    "@redwoodjs/internal": 0.0.0-experimental-streaming.7
+    "@redwoodjs/project-config": 0.0.0-experimental-streaming.7
+    "@redwoodjs/router": 0.0.0-experimental-streaming.7
+    "@redwoodjs/structure": 0.0.0-experimental-streaming.7
+    "@redwoodjs/web": 0.0.0-experimental-streaming.7
     "@whatwg-node/fetch": 0.8.4
     babel-plugin-ignore-html-and-css-imports: 0.1.0
     cheerio: 1.0.0-rc.12
@@ -4878,13 +4878,13 @@ __metadata:
   peerDependencies:
     react: 18.2.0
     react-dom: 18.2.0
-  checksum: ff7e6def2c23b5128a9bd05f1882484b3ff82cc88bb6f8d68133d9f9e7523251743e94bc3a1e1045a7a1ba923f0a9b5acd70fe1e39b79a165cc41e2d9007d750
+  checksum: 6cb084ffccae5958aaf49c9e057c4429544a51ec610781f405248a5bfc41f2fa6113769d3ffcbe7a608c6d2e222207e0755b27e38d1bbb1f7fe027a3c25d180e
   languageName: node
   linkType: hard
 
-"@redwoodjs/project-config@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/project-config@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/project-config@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/project-config@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/runtime-corejs3": 7.21.0
     "@iarna/toml": 2.2.5
@@ -4893,33 +4893,33 @@ __metadata:
     fast-glob: 3.2.12
     findup-sync: 5.0.0
     string-env-interpolation: 1.0.1
-  checksum: 8cb2a80939240cf6c481c8d4cd043ffbd597d8f8b47248c57fadde338d595df2d359e3b9d02c6be0308b379a3f5b13c1804642ce4d1a082fe54017435861bc28
+  checksum: 86eac4a924675b968a6db197be9c3ef09b8494f766fcfdee30bb8dcda7ab89740e6c98c2fc2a47c86e43bbd289262209bf35dbb13ee7a490215e21fadcab4076
   languageName: node
   linkType: hard
 
-"@redwoodjs/router@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/router@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/router@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/router@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/runtime-corejs3": 7.21.0
     "@reach/skip-nav": 0.18.0
-    "@redwoodjs/auth": 0.0.0-experimental-streaming.6
+    "@redwoodjs/auth": 0.0.0-experimental-streaming.7
     core-js: 3.30.0
   peerDependencies:
     react: 18.2.0
     react-dom: 18.2.0
-  checksum: 31c64123812355419307d2b514952a07ea150fa4e1a4fc8c7b569bed4b525bcb7c88cbda25258b86d758bcb0555bde8fa5633f262a96966000d5c8ba0eca95e5
+  checksum: dd7b59039b40aa60928363dbd71677509d26d79d9a1f0d064acac802cc71667931c95205141d80f72bba1f8f9c752e4b0b94cb378f04d675ec0931c9089b449d
   languageName: node
   linkType: hard
 
-"@redwoodjs/structure@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/structure@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/structure@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/structure@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/runtime-corejs3": 7.21.0
     "@iarna/toml": 2.2.5
     "@prisma/internals": 4.12.0
-    "@redwoodjs/project-config": 0.0.0-experimental-streaming.6
+    "@redwoodjs/project-config": 0.0.0-experimental-streaming.7
     "@types/line-column": 1.0.0
     camelcase: 6.3.0
     core-js: 3.30.0
@@ -4939,17 +4939,17 @@ __metadata:
     vscode-languageserver-textdocument: 1.0.8
     vscode-languageserver-types: 3.17.3
     yargs-parser: 21.1.1
-  checksum: e675378e491f593f7b9a83fe2e6b5093827d650ed6e8090ce234f7cfb219ff2293f134a156cca893c6a35ea4c25d6332f642033953dcb72e952b808d9214ef3a
+  checksum: 500b83f4ceaec4e218e97562a918ddf93dfe8632ef8a542752aa2d2ea60fdac7a7dbc784c7d36f9fc35935c066543cb77279d201756b874a79943f7bc953253d
   languageName: node
   linkType: hard
 
-"@redwoodjs/telemetry@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/telemetry@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/telemetry@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/telemetry@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/runtime-corejs3": 7.21.0
-    "@redwoodjs/project-config": 0.0.0-experimental-streaming.6
-    "@redwoodjs/structure": 0.0.0-experimental-streaming.6
+    "@redwoodjs/project-config": 0.0.0-experimental-streaming.7
+    "@redwoodjs/structure": 0.0.0-experimental-streaming.7
     "@whatwg-node/fetch": 0.8.4
     ci-info: 3.8.0
     core-js: 3.30.0
@@ -4957,21 +4957,21 @@ __metadata:
     systeminformation: 5.17.12
     uuid: 9.0.0
     yargs: 17.7.1
-  checksum: c0c944ffa86bc359f24997cf2dd2b1ba8bb10f97e4853c2849590e45f59eacd4386d70f9d0e0f4be324e4c29de871cb3aedbfdbfddaf09051da65a5b39e23d07
+  checksum: adfe6e6826c46b121bb4581a18085e88e26845acfd3a19e17e569c199c6a50dbf5b03fe64a6f3181875a5aabad7994f93d0226a7d759a0b93688b9c17f02aa30
   languageName: node
   linkType: hard
 
-"@redwoodjs/testing@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/testing@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/testing@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/testing@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/runtime-corejs3": 7.21.0
-    "@redwoodjs/auth": 0.0.0-experimental-streaming.6
-    "@redwoodjs/graphql-server": 0.0.0-experimental-streaming.6
-    "@redwoodjs/internal": 0.0.0-experimental-streaming.6
-    "@redwoodjs/project-config": 0.0.0-experimental-streaming.6
-    "@redwoodjs/router": 0.0.0-experimental-streaming.6
-    "@redwoodjs/web": 0.0.0-experimental-streaming.6
+    "@redwoodjs/auth": 0.0.0-experimental-streaming.7
+    "@redwoodjs/graphql-server": 0.0.0-experimental-streaming.7
+    "@redwoodjs/internal": 0.0.0-experimental-streaming.7
+    "@redwoodjs/project-config": 0.0.0-experimental-streaming.7
+    "@redwoodjs/router": 0.0.0-experimental-streaming.7
+    "@redwoodjs/web": 0.0.0-experimental-streaming.7
     "@storybook/addon-a11y": 6.5.17-alpha.0
     "@storybook/addon-docs": 6.5.17-alpha.0
     "@storybook/addon-essentials": 6.5.17-alpha.0
@@ -4998,17 +4998,17 @@ __metadata:
     msw: 1.2.1
     ts-toolbelt: 9.6.0
     whatwg-fetch: 3.6.2
-  checksum: a701d16d97d018422bec15a4b107b339e70c135919338c852333ff6070de138fd0fd16353e921281e40c813d327b19b1fa92cfed3cd97f8bc0cc9ad016ddf0be
+  checksum: 26bc99f173a1395086bd695652f194eddaf8d2d60591bac31afa1f62d54ebe8813a30d2cd37c79c7aedfe6b624030f10c636fa2c037335e525992478fcde34e7
   languageName: node
   linkType: hard
 
-"@redwoodjs/vite@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/vite@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/vite@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/vite@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@babel/runtime-corejs3": 7.21.0
-    "@redwoodjs/internal": 0.0.0-experimental-streaming.6
-    "@redwoodjs/project-config": 0.0.0-experimental-streaming.6
+    "@redwoodjs/internal": 0.0.0-experimental-streaming.7
+    "@redwoodjs/project-config": 0.0.0-experimental-streaming.7
     "@vitejs/plugin-react": 3.1.0
     buffer: 6.0.3
     core-js: 3.30.0
@@ -5026,17 +5026,17 @@ __metadata:
     rw-dev-fe: dist/devFeServer.js
     rw-serve-fe: dist/runFeServer.js
     vite: bins/vite.mjs
-  checksum: 399793b005da03360fc6d3a2ff7e7c2aae98c8b125b07514a5c68748fefdd5bc97a2168ae05c23a2928e85bc6b49901d2e34bb4c435aa8dd149c297fde2e8a86
+  checksum: 4caa75f590b80137866ee38837f3c31f78dbea879deac492b81d66ae82217dbcf99bf0fd37713b034f78475158f4c43bf04dcc8e256e815db81c13efcca17f8a
   languageName: node
   linkType: hard
 
-"@redwoodjs/web@npm:0.0.0-experimental-streaming.6":
-  version: 0.0.0-experimental-streaming.6
-  resolution: "@redwoodjs/web@npm:0.0.0-experimental-streaming.6"
+"@redwoodjs/web@npm:0.0.0-experimental-streaming.7":
+  version: 0.0.0-experimental-streaming.7
+  resolution: "@redwoodjs/web@npm:0.0.0-experimental-streaming.7"
   dependencies:
     "@apollo/client": 3.7.11
     "@babel/runtime-corejs3": 7.21.0
-    "@redwoodjs/auth": 0.0.0-experimental-streaming.6
+    "@redwoodjs/auth": 0.0.0-experimental-streaming.7
     core-js: 3.30.0
     graphql: 16.6.0
     graphql-tag: 2.12.6
@@ -5058,7 +5058,7 @@ __metadata:
     start-storybook: dist/bins/start-storybook.js
     tsc: dist/bins/tsc.js
     webpack: dist/bins/webpack.js
-  checksum: f5e50e38274268226e27075d3b38caa793b5247c66f48f8c194a6936a0a592733e2bbedf4811ea1a39b4d51450193e851272ba3ccd7509cc57626df099c9d3fd
+  checksum: 9a5c27acdcca5577773983f77be93f669d6380eef665b890e8a3d5123e8f49f9d99a24bd8ce7326bb2cd67ee3ab65ceace86f38afe4aad1de5fc3153769e8e8c
   languageName: node
   linkType: hard
 
@@ -8214,8 +8214,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api@workspace:api"
   dependencies:
-    "@redwoodjs/api": 0.0.0-experimental-streaming.6
-    "@redwoodjs/graphql-server": 0.0.0-experimental-streaming.6
+    "@redwoodjs/api": 0.0.0-experimental-streaming.7
+    "@redwoodjs/graphql-server": 0.0.0-experimental-streaming.7
   languageName: unknown
   linkType: soft
 
@@ -21420,7 +21420,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@redwoodjs/core": 0.0.0-experimental-streaming.6
+    "@redwoodjs/core": 0.0.0-experimental-streaming.7
   languageName: unknown
   linkType: soft
 
@@ -24462,10 +24462,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:web"
   dependencies:
-    "@redwoodjs/forms": 0.0.0-experimental-streaming.6
-    "@redwoodjs/router": 0.0.0-experimental-streaming.6
-    "@redwoodjs/vite": 0.0.0-experimental-streaming.6
-    "@redwoodjs/web": 0.0.0-experimental-streaming.6
+    "@redwoodjs/forms": 0.0.0-experimental-streaming.7
+    "@redwoodjs/router": 0.0.0-experimental-streaming.7
+    "@redwoodjs/vite": 0.0.0-experimental-streaming.7
+    "@redwoodjs/web": 0.0.0-experimental-streaming.7
     prop-types: 15.8.1
     react: 18.2.0
     react-dom: 18.2.0
