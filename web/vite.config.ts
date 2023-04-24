@@ -6,7 +6,7 @@ import { defineConfig, UserConfig } from 'vite'
 // So that Vite will load on local instead of 127.0.0.1
 dns.setDefaultResultOrder('verbatim')
 
-import redwood from '@redwoodjs/vite'
+import redwood from '../for-reproduction/redwoodVitePlugin'
 
 /**
  * https://vitejs.dev/config/
