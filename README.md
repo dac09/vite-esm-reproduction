@@ -1,12 +1,18 @@
-> With this experimental version, we are making a significant change in the way you think about, and build Redwood apps.
+Steps to view the issue:
+`yarn install` ofcourse. And run `yarn rw dev` just to check everything is working!
 
-Redwood now becomes SSR-first, and moves away from the JAMStack model. You can decide whether your Routes are streamed from the server, then hydrated on the client *or* if you just want a static HTML page, based on the renderMode prop.
+This repo demonstrates why we need to build to Cjs at the moment. I do not think this is a problem with Vite, but instead that Redwood modules aren't ESM compatible.
 
+1. Build the frontend: `yarn rw build`
+This particular repo is configured **not** to use the `buildSsrCjsExternalHeuristics` flag.
 
-Some useful links:
+2. Open `./web/dist/server` to verify that output is ESM
+Note that its not using the usual Redwood plugin but a slightly modified version in `for-reproduction/redwoodVitePlugin.ts`
 
-- Checkout the original RFC with render modes here: [https://github.com/redwoodjs/redwood/issues/6760](https://github.com/redwoodjs/redwood/issues/6760) - but remember the plan has diverged a little!
+3. Try serving this code with: `node for-reproduction/startFeServer.mjs` 
 
----
-
-## Full documentation here: https://www.craft.do/s/qPr9QqE0kqBzC7
+4. Go to localhost:8910, and you should see this error on your console:
+```
+Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/workspace/vite-esm-reproduction/node_modules/@redwoodjs/web/apollo' is not supported resolving ES modules imported from /workspace/vite-esm-reproduction/web/dist/server/entry-server.mjs
+Did you mean to import @redwoodjs/web/apollo/index.js?
+```
